@@ -10,6 +10,21 @@
     min-width: 300px;
     margin: 0 auto;
     padding: 2em 1em;
+    padding-bottom: 1em;
+}
+
+.container > h1 {
+    color: rgb(220, 22, 94);
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container > p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(13, 12, 18);
 }
 
 .clearfix::after {
@@ -19,28 +34,40 @@
 }
 
 .block {
-    padding-inline: calc(100% / 3);
+    padding: 0 13px;
+    float: left;
 }
 
 .content {
-    background-color: red;
-    width: 165px;
+    background-color: rgb(13, 12, 18);
+    color: white;
+    width: 280px;
     float: left;
 }
 
 .content img{
-    width: 40px;
+    width: 80px;
     float: left;
+    padding-right: 10px;
 }
 
 .content h2 {
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 2px;
+    padding-top: 10px;
     font-size: 12px;
     text-transform: uppercase;
 }
 
 .content > span {
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px;
     display: block;
     font-size: 10px;
+}
+
+.content > span.blue {
+    color: rgb(32, 194, 239);
 }
 
 

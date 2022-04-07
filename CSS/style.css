@@ -34,8 +34,8 @@
 }
 
 .block {
-    padding: 0 13px;
-    padding-bottom: 40px;
+    margin: 0 13px;
+    margin-bottom: 30px;
     float: left;
 }
 

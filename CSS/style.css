@@ -19,12 +19,12 @@
 }
 
 .block {
-    background-color: red;
-    width: 165px;
-    float: left;
+    padding-inline: calc(100% / 3);
 }
 
-.box-description {
+.content {
+    background-color: red;
+    width: 165px;
     float: left;
 }
 
